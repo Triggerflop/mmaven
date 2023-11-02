@@ -22,4 +22,112 @@ Git status    (modified file check)
 Git add .      (file staged)
 Git commit -m “message”
 Git push origin main
-2.)
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------
+  246  git config --global user.name"Amit"
+  247  git config --global user.email"kumarait121@gst.sies.edu.in"
+  248  git clone https://github.com/Triggerflop/myproj.git~
+  249  git clone https://github.com/Triggerflop/myproj.git
+  250  ls
+  251  pwd
+  252  cd git_proj
+  253  ls
+  254  ls
+  255  git clone https://github.com/Triggerflop/myproj.git
+  256  ls
+  257  cd myproj/
+  258  ls
+  259  cat file.tt
+  260  cat file.txt
+  261  git status
+  262  git add .
+  263  git commit -m "commited by me"
+  264  git status
+  265  Git push origin main
+  266  Git pull origin main
+  267  ls
+  268  cat file.txt
+  269  git branch
+  270  git branch pushkar
+  271  git branch shantanu
+  272  git branch
+  273  git status
+  274  git add .
+  275  git commit -m "commited some new branches"
+  276  Git push origin main
+  277  git checkout pushkar
+  278  Git push origin main
+  279  touch file3
+  280  git add .
+  281  git commit -m "commited some new branches"
+  282  Git push origin main
+  283  Git push origin pushkar
+  284  ls
+  285  git checkout main
+  286  ls
+  287  git merge pushkar
+  288  ls
+  289  git checkout shantanu
+  290  touch file4
+  291  git add .
+  292  git commit -m "commited"
+  293  git push origin shantanu
+  294  git checkout main
+  295  ls
+  296  git merge shantanu
+  297  ls
+  298  git checkout pushkar
+  299  ls
+  300  git pull origin main
+  301  ls
+  302  git pull origin pushkar
+  303  ls
+  304  git status
+  305  git checkout main
+  306  git status
+  307  git push origin main
+  308  git pull origin pushkar
+  309  git checkout pushkar
+  310  ls
+  311  git pull origin pushkar
+  312  git pull origin main
+  313  ls
+  314  history
+  315  ls
+  316  cat >> file.txt
+  317  git add ,
+  318  git add .
+  319  git commit "commited by pushkar"
+  320  git commit "commited by pushkar" file.txt
+  321  git commit -m "commited by pushkar" file.txt
+  322  git push origin main
+  323  git push origin pushkar
+  324  git checkout main
+  325  ls
+  326  cat file.tt
+  327  cat file.txt
+  328  git checkout shantanu
+  329  cat >> file.txt
+  330  git add .
+  331  git commit -m "commited by shantanu" file.txt
+  332  git push orgin main
+  333  git push origin shantanu
+  334  git checkout main
+  335  git status
+  336  git merge shantanu
+  337  git merge pushkar
+  338  git status
+  339  ls
+  340  cat file.txt
+  341  git commit -m "done"
+  342  git add .
+  343  git commit -m "done"
+  344  git status
+  345  git push origin main
+---------------------------------------------------------------------------------------------------------------

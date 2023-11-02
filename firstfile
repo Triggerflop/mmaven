@@ -1,0 +1,25 @@
+mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+cd my-app
+mvn package
+java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
+
+C:\ProgramData\Jenkins\.jenkins\workspace\mavenproj\my-app\pom.xml
+
+clean compile package install
+
+c:
+cd C:\ProgramData\Jenkins\.jenkins\workspace\mavenproj\my-app\pom.xml
+java -cp C:\ProgramData\Jenkins\.jenkins\workspace\mavenproj\my-app\target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+github commands:-
+1.)
+(adding file from local to remote)
+Vim newfile   (newfile=name of the file)
+	Write something onto the vim
+Git status    (modified file check)
+Git add .      (file staged)
+Git commit -m “message”
+Git push origin main
+2.)

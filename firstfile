@@ -131,3 +131,11 @@ Git push origin main
   344  git status
   345  git push origin main
 ---------------------------------------------------------------------------------------------------------------
+docker run --name javacontainer -it -d openjdk
+docker exec -it javacontainer jshell(docker exec -it cointanerid command name)
+docker images 
+docker ps -a
+docker pull 
+docker run --name ngeniserver -d -p 8080:80 ngeni
+docker stop id
+docker rm id

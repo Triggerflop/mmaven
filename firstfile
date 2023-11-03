@@ -130,6 +130,8 @@ Git push origin main
   343  git commit -m "done"
   344  git status
   345  git push origin main
+git config --global user.name
+
 ---------------------------------------------------------------------------------------------------------------
 docker run --name javacontainer -it -d openjdk
 docker exec -it javacontainer jshell(docker exec -it cointanerid command name)
